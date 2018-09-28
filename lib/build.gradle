@@ -1,26 +1,15 @@
-apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.library'
-apply plugin: 'android-maven'
-
-version '2.1'
-
-repositories {
-    jcenter()
-}
-
-dependencies {
-    compile "com.android.support:support-v4:25.0.0"
-}
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25"
+
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 9
-        targetSdkVersion 25
-        versionCode 21
-        versionName "2.1"
+        targetSdkVersion 28
+        versionCode 22
+        versionName "2.2"
     }
 
 }

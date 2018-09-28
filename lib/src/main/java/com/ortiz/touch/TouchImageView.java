@@ -15,13 +15,11 @@ package com.ortiz.touch;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.Configuration;
-import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
@@ -59,9 +57,8 @@ public class TouchImageView extends ImageView {
     //
     private Matrix matrix, prevMatrix;
 
-    private static enum State {NONE, DRAG, ZOOM, FLING, ANIMATE_ZOOM}
+    private enum State {NONE, DRAG, ZOOM, FLING, ANIMATE_ZOOM}
 
-    ;
     private State state;
 
     private float minScale;
