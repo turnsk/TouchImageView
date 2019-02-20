@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 
-version '1.4.0'
+version '2.2.0'
 
 android {
     compileSdkVersion defaultCompileSdkVersion
@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion defaultTargetSdkVersion
         versionCode 2
-        versionName "1.4.0"
+        versionName "2.2.0"
     }
     buildTypes {
         release {
